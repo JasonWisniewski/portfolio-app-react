@@ -6,12 +6,18 @@ const Footer = () => {
       <div className="container text-center text-md-left">
         <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
           <h5 className="text-uppercase mb-4 font-weight-bold text-warning">
-            Jason Wisniewski
-            <p>
-              github<br/>
-              linkedIn<br/>
-              email<br/>
-            </p>
+            
+            <ul>
+              <li>
+                <a href="https://github.com/JasonWisniewski">GitHub</a>
+              </li>
+              <li>
+                  <a href="mailto:jwizinpa95@gmail.com">Email</a>
+              </li>
+              <li>
+              <a href="https://www.linkedin.com/in/jason-r-wisniewski-572a1a155/">LinkedIn</a>
+              </li>
+            </ul>
           </h5>
         </div>
       </div>
