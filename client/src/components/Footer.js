@@ -12,10 +12,13 @@ const Footer = () => {
                 <a href="https://github.com/JasonWisniewski">GitHub</a>
               </li>
               <li>
-                  <a href="mailto:jwizinpa95@gmail.com">Email</a>
+                <a href="mailto:jwizinpa95@gmail.com">Email</a>
               </li>
               <li>
-              <a href="https://www.linkedin.com/in/jason-r-wisniewski-572a1a155/">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/jason-r-wisniewski-572a1a155/">LinkedIn</a>
+              </li>
+              <li>
+                <a href="https://stackoverflow.com/users/17072525/jason-wisniewski">Stack Overflow</a>
               </li>
             </ul>
           </h5>
