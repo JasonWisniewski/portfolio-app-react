@@ -9,7 +9,6 @@ const Home = () => {
 =     </div>
 
       <section className="">
-        about me
       </section>
     </div>
   )

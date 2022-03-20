@@ -9,17 +9,44 @@ const Portfolio = (props) => {
       name: "brew hops",
       description: "first project",
       src: brewHops,
+      liveLink: 'https://jasonwisniewski.github.io/brew-hops/',
+      repoLink: 'https://github.com/JasonWisniewski/brew-hops'
     },
     {
       name: "planet express.js",
       description: "second project",
       src: planetExpress,
+      liveLink: 'https://planet-express-js.herokuapp.com/',
+      repoLink: 'https://github.com/mhowitz/planet-express-js'
     },
     {
       name: "planet express.js",
       description: "Portfolio with HTML5 and CSS",
       src: firstPortfolio,
-    }
+      liveLink: 'https://jasonwisniewski.github.io/Portfolio-App/',
+      repoLink: 'https://github.com/mhowitz/planet-express-js'
+    },
+    {
+      name: "planet express.js",
+      description: "Portfolio with HTML5 and CSS",
+      src: firstPortfolio,
+      liveLink: 'https://jasonwisniewski.github.io/Portfolio-App/',
+      repoLink: 'https://github.com/mhowitz/planet-express-js'
+    },
+    {
+      name: "planet express.js",
+      description: "Portfolio with HTML5 and CSS",
+      src: firstPortfolio,
+      liveLink: 'https://jasonwisniewski.github.io/Portfolio-App/',
+      repoLink: 'https://github.com/JasonWisniewski/Portfolio-App'
+    },
+    {
+      name: "planet express.js",
+      description: "Portfolio with HTML5 and CSS",
+      src: firstPortfolio,
+      liveLink: 'https://jasonwisniewski.github.io/Portfolio-App/',
+      repoLink: 'https://github.com/mhowitz/planet-express-js'
+    },
   ];
 
   return (
@@ -38,8 +65,9 @@ const Portfolio = (props) => {
                 {project.name}
               </div>
               <div className="card-body">
-                <h5 className="card-title">{project.name}</h5>
-                <p className="card-text">{project.description} .</p>
+                <h5 className="card-title">Live link: {project.liveLink}</h5>
+                <h5 className="">Github repo: {project.repoLink}</h5>
+                <h5 className="card-text">{project.description} .</h5>
               </div>
             </div>
           </div>
