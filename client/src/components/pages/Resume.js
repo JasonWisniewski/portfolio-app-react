@@ -7,7 +7,7 @@ const Resume = () => {
       <div>
         <div className="p-2 m-2 justify-content-center">
           you can download a pdf of my resume
-          <a href="./directory/yourfile.pdf" download="newfilename">
+          <a href={CV} download="Jason-Wisniewski-Resume">
             Here!
           </a>
         </div>

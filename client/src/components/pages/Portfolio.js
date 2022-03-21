@@ -2,48 +2,55 @@ import React from "react";
 import brewHops from "../../assets/images/Brew-Hops.jpg";
 import planetExpress from "../../assets/images/resource-library.png";
 import firstPortfolio from "../../assets/images/portfolio1.png";
+import Weather from "../../assets/images/Weather.png";
+import Wheat from "../../assets/images/Wheat.jpg";
+import Elcap from "../../assets/images/Elcap.jpg";
+import CodingQuiz from "../../assets/images/CodingQuiz.png";
+
+
+
 
 const Portfolio = (props) => {
   const projectsArr = [
     {
       name: "brew hops",
-      description: "first project",
+      description: "Brew Hops! Is an interactive map and directory created to help you find the best route between breweries in Salt Lake City. Whether you’re a visitor or a local, this app will help you sample Salt Lake’s finest craft beer selection while keeping you safe and speedy.I learned a lot about implementing Bootstrap, JQuery, JavaScript, HTML, and CSS.",
       src: brewHops,
       liveLink: 'https://jasonwisniewski.github.io/brew-hops/',
       repoLink: 'https://github.com/JasonWisniewski/brew-hops'
     },
     {
       name: "planet express.js",
-      description: "second project",
+      description: "An innovative new web application that allows you save and organize resources from all over the World Wide Web with efficiency and ease. No more scrolling through endless bookmarks looking for obscure documentation, no more fruitless google searches, Planet Express.js is here to help you become a better student, programmer, or developer!",
       src: planetExpress,
       liveLink: 'https://planet-express-js.herokuapp.com/',
       repoLink: 'https://github.com/mhowitz/planet-express-js'
     },
     {
-      name: "planet express.js",
-      description: "Portfolio with HTML5 and CSS",
-      src: firstPortfolio,
-      liveLink: 'https://jasonwisniewski.github.io/Portfolio-App/',
-      repoLink: 'https://github.com/mhowitz/planet-express-js'
+      name: "Weather Dashboard",
+      description: "This projects purpose is to make a weather dashboard that shows the current weather and 5 day forecast of the user defined city. It also saves the user searches in local storage and displays search history as buttons on side of dashboard. This project taught me about access data from a 3rd part API and solidified creating DOM elements in JavaScript.",
+      src: Weather,
+      liveLink: 'https://jasonwisniewski.github.io/weather-dashboard/',
+      repoLink: 'https://github.com/JasonWisniewski/weather-dashboard'
     },
     {
-      name: "planet express.js",
-      description: "Portfolio with HTML5 and CSS",
-      src: firstPortfolio,
-      liveLink: 'https://jasonwisniewski.github.io/Portfolio-App/',
-      repoLink: 'https://github.com/mhowitz/planet-express-js'
+      name: "Budget Track PWA",
+      description: "This application functions offline using a service worker and indexedDB. A user can create multiple transactions which are stored on the clients side and uploaded to the app when internet connection is reestablished.I learned about indexedDB and servicer workers in creating this application.",
+      src: Wheat,
+      repoLink: 'https://drive.google.com/file/d/19UEtHwqUOMODvKFGNfnNtV9A1Ln-pydy/view',
+      liveLink: 'https://github.com/JasonWisniewski/budget-tracker-PWA',
     },
     {
-      name: "planet express.js",
-      description: "Portfolio with HTML5 and CSS",
-      src: firstPortfolio,
-      liveLink: 'https://jasonwisniewski.github.io/Portfolio-App/',
-      repoLink: 'https://github.com/JasonWisniewski/Portfolio-App'
+      name: "Social App API",
+      description: "This application creates api routes for a social media application website using mongoDB. The following routes were created: getAllUsers, getUserById, createUser, deleteUser, addFriend, deleteFriend, getAllThought, addThought, getThoughtById, updateThought, removeThought, addReaction, and removeReaction with MongoDB.",
+      src: Elcap,
+      liveLink: '',
+      repoLink: 'https://github.com/JasonWisniewski/social-app-api'
     },
     {
-      name: "planet express.js",
-      description: "Portfolio with HTML5 and CSS",
-      src: firstPortfolio,
+      name: "Coding Quiz",
+      description: "This project purpose is to make a coding quiz that functions when the start button is clicked. This starts a timer, if the player gets the wrong answer time will be deducted from the timer. If the user gets the correct answer points will be added to the users score. This project taught me about click events, DOM manipulation, and storing data in local storage with JavaScript.",
+      src: CodingQuiz,
       liveLink: 'https://jasonwisniewski.github.io/Portfolio-App/',
       repoLink: 'https://github.com/mhowitz/planet-express-js'
     },
