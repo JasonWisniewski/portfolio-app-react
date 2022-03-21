@@ -3,7 +3,7 @@
 ![badge](https://img.shields.io/badge/MIT-License-red)
 
 ## Description
-This application is for anyone who wants to view my work and resume get in touch with me at github, linkedIn or email.  This application was crated using React.js.
+This application is for anyone who wants to view my work, resume or get in touch with me.  This application was crated using React.js.
 
 I learned about React.js in creating this application. 
 
