@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio-app-react/static/css/main.412b7946.css",
+    "main.js": "/portfolio-app-react/static/js/main.aa779abd.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/portfolio-app-react/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/HeadShot.jpg": "/portfolio-app-react/static/media/HeadShot.997dd96d74a626be3e66.jpg",
+    "static/media/portfolio1.png": "/portfolio-app-react/static/media/portfolio1.aaa710650cf96ee742cd.png",
+    "static/media/resource-library.png": "/portfolio-app-react/static/media/resource-library.45dba5873000f52073ce.png",
+    "static/media/Yosemite-Sam.jpg": "/portfolio-app-react/static/media/Yosemite-Sam.e4ed2c1a4066f0f97163.jpg",
+    "static/media/Wheat.jpg": "/portfolio-app-react/static/media/Wheat.121482b35016aad9e6db.jpg",
+    "static/media/Elcap.jpg": "/portfolio-app-react/static/media/Elcap.ad5b362dfb3b5b8da524.jpg",
+    "static/media/Brew-Hops.jpg": "/portfolio-app-react/static/media/Brew-Hops.0b25b4ab3d9fa6c31611.jpg",
+    "static/media/Resume.png": "/portfolio-app-react/static/media/Resume.d3eab784beaef5e7c23f.png",
+    "static/media/Weather.png": "/portfolio-app-react/static/media/Weather.c993694156f9d83ef076.png",
+    "static/media/CodingQuiz.png": "/portfolio-app-react/static/media/CodingQuiz.e5f114b476d6aaca1aa3.png",
+    "index.html": "/portfolio-app-react/index.html",
+    "main.412b7946.css.map": "/portfolio-app-react/static/css/main.412b7946.css.map",
+    "main.aa779abd.js.map": "/portfolio-app-react/static/js/main.aa779abd.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/portfolio-app-react/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.412b7946.css",
+    "static/js/main.aa779abd.js"
+  ]
+}
