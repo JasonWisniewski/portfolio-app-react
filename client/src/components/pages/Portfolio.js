@@ -6,7 +6,7 @@ import Weather from "../../assets/images/Weather.png";
 import Wheat from "../../assets/images/Wheat.jpg";
 import Elcap from "../../assets/images/Elcap.jpg";
 import CodingQuiz from "../../assets/images/CodingQuiz.png";
-import Marketplace from "../../assets/images/Marketplace";
+import Marketplace from "../../assets/images/Marketplace.png";
 
 
 
