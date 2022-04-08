@@ -6,7 +6,7 @@ import Weather from "../../assets/images/Weather.png";
 import Wheat from "../../assets/images/Wheat.jpg";
 import Elcap from "../../assets/images/Elcap.jpg";
 import CodingQuiz from "../../assets/images/CodingQuiz.png";
-
+import Marketplace from "../../assets/images/Marketplace";
 
 
 
@@ -25,6 +25,13 @@ const Portfolio = (props) => {
       src: planetExpress,
       liveLink: 'https://planet-express-js.herokuapp.com/',
       repoLink: 'https://github.com/mhowitz/planet-express-js'
+    },
+    {
+      name: "Marketplace",
+      description: "This project creates a marketplace where people can buy and sell items to other users.  This is a full stack MERN application created with a group of 4.",
+      src: Marketplace,
+      liveLink: 'http://moneybags-marketplace.herokuapp.com/',
+      repoLink: 'https://github.com/mhowitz/business-adultmen'
     },
     {
       name: "Weather Dashboard",
