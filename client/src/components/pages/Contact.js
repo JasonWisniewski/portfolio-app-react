@@ -37,7 +37,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="p-3">
+    <section className="p-3 bg-gray">
       <h1 data-testid='h1tag'>Contact me</h1>
       <form id ="contact-form" onSubmit={handleSubmit}>
         <div className="p-2">

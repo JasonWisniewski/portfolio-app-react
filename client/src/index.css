@@ -295,15 +295,6 @@ button {
 	padding: 10px 15px;	
 }
 
-/* a {
-	border-radius: 5px;
-	color: var(--primary);
-	font-weight: 600;
-	padding: 2px 4px;
-	margin-left: -2px;
-	margin-right: -2px;
-} */
-
 .navActive {
   color: var(--secondary);
 }
@@ -333,4 +324,8 @@ button {
 
  .icon:hover {
    color: #CBD2D0;
+ }
+
+ .text-white {
+  color: white !important;
  }

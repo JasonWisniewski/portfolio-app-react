@@ -63,11 +63,11 @@ const Portfolio = (props) => {
   ];
 
   return (
-    <div className="">
+    <div className="bg-gray">
       <h1>
         Projects
       </h1>
-     
+  
         {projectsArr.map((project,i) => (
         <div key={i} className="row vw">  
           <div className=" ">
