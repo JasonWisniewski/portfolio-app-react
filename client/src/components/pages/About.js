@@ -3,7 +3,7 @@ import headShot from "../../assets/images/HeadShot.jpg";
 
 const About = () => {
   return (
-    <div>
+    <div className="bg-gray height-100">
       <h1 className="m-2 p-1">About Me</h1>
       <div className="p-3 row">
         <div className="col-sm-3">

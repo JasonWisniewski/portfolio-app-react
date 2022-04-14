@@ -4,8 +4,7 @@ import React from 'react'
 const Home = () => {
   return (
     <header>
-        <img src={require("../../assets/images/Yosemite-Sam.jpg")} alt="view of mountain" />
-
+        <img className="home-image" src={require("../../assets/images/Yosemite-Sam.jpg")} alt="view of mountain" />
       <section className="">
       </section>
     </header>

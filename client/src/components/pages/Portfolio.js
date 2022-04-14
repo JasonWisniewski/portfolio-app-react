@@ -9,7 +9,6 @@ import CodingQuiz from "../../assets/images/CodingQuiz.png";
 import Marketplace from "../../assets/images/Marketplace.png";
 
 
-
 const Portfolio = (props) => {
   const projectsArr = [
     {
