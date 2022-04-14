@@ -30,7 +30,6 @@ main {
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
-
 }
 
 * {
@@ -97,7 +96,7 @@ p {
 }
 
 a {
-  color: var(--tertiary);
+  /* color: var(--tertiary); */
   text-decoration: none;
   font-weight: bold;
 }
@@ -110,7 +109,7 @@ header {
   background: var(--dark);
 }
 
-header a {
+header  {
   color: var(--light);
 }
 
@@ -296,14 +295,14 @@ button {
 	padding: 10px 15px;	
 }
 
-a {
+/* a {
 	border-radius: 5px;
 	color: var(--primary);
 	font-weight: 600;
 	padding: 2px 4px;
 	margin-left: -2px;
 	margin-right: -2px;
-}
+} */
 
 .navActive {
   color: var(--secondary);
@@ -328,3 +327,10 @@ a {
 .height-100 {
   height: 88vh;
 }
+ .icon {
+   color: white;
+ }
+
+ .icon:hover {
+   color: #CBD2D0;
+ }

@@ -12,19 +12,19 @@ const Footer = () => {
     <footer className="bg-gunmetal pt-3 pb-3 d-flex justify-content-around">
       
       <a href="https://github.com/JasonWisniewski">
-        <FontAwesomeIcon icon={faGithub} />
+        <FontAwesomeIcon className= "icon" icon={faGithub} size="2x" />
       </a>
 
       <a href="mailto:jwizinpa95@gmail.com">
-        <FontAwesomeIcon icon={faEnvelope} />
+        <FontAwesomeIcon className= "icon" icon={faEnvelope} size="2x" />
       </a>
 
       <a href="https://www.linkedin.com/in/jason-r-wisniewski-572a1a1">
-        <FontAwesomeIcon icon={faLinkedin} />
+        <FontAwesomeIcon className= "icon" icon={faLinkedin} size="2x"/>
       </a>
 
       <a href="https://stackoverflow.com/users/17072525/jason-wisniewski">
-        <FontAwesomeIcon icon={faStackOverflow} />
+        <FontAwesomeIcon className= "icon" icon={faStackOverflow} size="2x"/>
       </a>
     </footer>
   );
